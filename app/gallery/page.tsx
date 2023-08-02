@@ -36,7 +36,7 @@ export default async function Gellery() {
         {data.map((post) => (
           <article
             key={post._id}
-            className="relative overflow-hidden dark:border-zinc-600 rounded-lg border border-gray-100 bg-white shadow-md dark:bg-black dark:shadow-gray-900 shadow-teal-200"
+            className="relative overflow-hidden dark:border-zinc-600 rounded-lg border border-teal-200 bg-white shadow-md dark:bg-black dark:shadow-gray-900 shadow-teal-200"
           >
             <div className="relative inset-0 dark:bg-gray-900 bg-gray-100 py-2 flex items-center pl-6 overflow-hidden">
               <span className="flex gap-2 text-sm text-gray-700 dark:text-gray-400">
