@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { render } from "@react-email/components";
-import { transporter } from "../../utils/nodemailer";
+import { transporter, smtpEmail } from "../../utils/nodemailer";
 import { Email } from "../../components/Email";
 
 export async function POST(req: NextRequest, res: NextResponse) {
@@ -12,8 +12,9 @@ export async function POST(req: NextRequest, res: NextResponse) {
   );
 
   const options = {
-    from: "alfianchabib109@gmail.com",
-    to: "alfianchabib109@gmail.com",
+    from: smtpEmail,
+    replaTo: smtpEmail,
+    to: smtpEmail,
     subject: "New Form Submission",
     html: emailHtml,
   };
