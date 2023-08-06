@@ -27,7 +27,7 @@ export default function RootLayout({
           rel="icon"
           href="https://drive.google.com/file/d/1gI-6DvLO9VfmY3FkzTU6D_MEj2i5Q73r/view"
         /> */}
-        <link rel="icon" href="./../public/favicon.ico" />
+        <link rel="icon" href="./favicon.ico" />
       </head>
       <body
         className={`${inter.className} bg-white text-black dark:bg-[#090908] dark:text-white h-full selection:bg-gray-50 dark:selection:bg-blue-800`}
