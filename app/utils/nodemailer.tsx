@@ -6,6 +6,9 @@ export const smtpPassword = process.env.GOOGLE_PASSWORD;
 
 export const transporter = nodemailer.createTransport(
   SMPTransport({
+    host: "smtp.forwardemail.net",
+    port: 465,
+    secure: true,
     service: "gmail",
     auth: {
       user: smtpEmail,
