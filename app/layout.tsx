@@ -23,10 +23,6 @@ export default function RootLayout({
         <meta name="description" content="ippnu ngemboh" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="IPPNU Ngemboh" />
-        {/* <link
-          rel="icon"
-          href="https://drive.google.com/file/d/1gI-6DvLO9VfmY3FkzTU6D_MEj2i5Q73r/view"
-        /> */}
         <link rel="icon" href="./favicon.ico" />
       </head>
       <body
