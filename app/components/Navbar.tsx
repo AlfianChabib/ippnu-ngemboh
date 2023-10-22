@@ -45,6 +45,13 @@ export default function Navbar() {
                   Gallery
                 </Link>
                 <Link
+                  href="https://daily-muslims.vercel.app/"
+                  target="_blank"
+                  className="w-20 text-center text-gray-500 dark:text-gray-300 dark:hover:text-white pt-1 text-sm font-medium"
+                >
+                  Al-Qur&apos;an
+                </Link>
+                <Link
                   href="/contact"
                   prefetch
                   className={`${
@@ -121,6 +128,13 @@ export default function Navbar() {
                 }`}
               >
                 Gallery
+              </Link>
+              <Link
+                href="https://daily-muslims.vercel.app/"
+                target="_blank"
+                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-teal-500 block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
+              >
+                Al-Qur&apos;an
               </Link>
               <Link
                 href="/contact"
